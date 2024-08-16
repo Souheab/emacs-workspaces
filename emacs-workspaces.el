@@ -314,5 +314,5 @@ workspace to delete."
   (let ((buffers (mapcar #'buffer-name (workspace-buffer-list))))
     (switch-to-buffer (completing-read "Select buffer: " buffers))))
 
-(provide 'workspaces)
+(provide 'emacs-workspaces)
 
